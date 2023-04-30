@@ -1,5 +1,17 @@
 # Customize Mac terminal (iTerm2, oh-my-zsh)
 
+## Set wookingwoo-iterm-profile
+
+### Download profile
+
+<https://github.com/wookingwoo/terminal-customization/blob/main/wookingwoo-iterm-profile.json>
+
+### Set profile in iTerm2
+
+iTerm2 > Preferences > Profiles > Other Actions > Import JSON Profiles > [wookingwoo-iterm-profile.json]
+
+---
+
 ## Install Homebrew
 
 ```bash
@@ -39,6 +51,8 @@ ZSH_THEME=”agnoster” 로 변경
 
 <https://github.com/wookingwoo/terminal-customization/tree/main/font/D2Coding-Ver1.3.2-20180524>
 
+<https://github.com/naver/d2codingfont>
+
 ### Change font in iTerm2
 
 iTerm2 > Preferences > Profiles > Text > Font > D2Coding
@@ -60,3 +74,11 @@ terminal > preferences > profiles > text > font > D2Coding
 iTerm2 > Preferences > Profiles > Colors > Color Presets > Import > [color theme file]
 
 I recommend [Atom theme](https://github.com/wookingwoo/terminal-customization/blob/main/mbadolato-iTerm2-Color-Schemes/schemes/Atom.itermcolors)
+
+## Add status bar in iTerm2
+
+- Add status bar: iTerm2 > Preferences > Profiles > Session > Status bar enabled
+![statusbar_configure](./img/statusbar_configure.png)
+
+- Change status bar position: Preferences > Appearance > Status bar location > Bottom
+![statusbar_location](./img/statusbar_location.png)
