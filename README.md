@@ -1,5 +1,9 @@
 # Customize Mac terminal (iTerm2, oh-my-zsh)
 
+## wookingwoo-zshrc
+
+<https://github.com/wookingwoo/terminal-customization/blob/main/.zshrc>
+
 ## Set wookingwoo-iterm-profile
 
 ### Download profile
@@ -82,3 +86,43 @@ I recommend [Atom theme](https://github.com/wookingwoo/terminal-customization/bl
 
 - Change status bar position: Preferences > Appearance > Status bar location > Bottom
 ![statusbar_location](./img/statusbar_location.png)
+
+## Install plugins for iTerm2
+
+### zsh-autosuggestions
+
+```bash
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+```bash
+open ~/.zshrc
+```
+
+Add zsh-autosuggestions plugin
+
+```bash
+plugins=( 
+    # other plugins...
+    zsh-autosuggestions
+)
+```
+
+### Install zsh-syntax-highlighting
+
+```bash
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+```bash
+open ~/.zshrc
+```
+
+Add zsh-syntax-highlighting plugin
+
+```bash
+plugins=( 
+    # other plugins...
+    zsh-syntax-highlighting
+)
+```
