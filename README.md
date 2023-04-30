@@ -91,9 +91,13 @@ I recommend [Atom theme](https://github.com/wookingwoo/terminal-customization/bl
 
 ### zsh-autosuggestions
 
+Install zsh-autosuggestions
+
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
+
+Open zshrc
 
 ```bash
 open ~/.zshrc
@@ -108,11 +112,15 @@ plugins=(
 )
 ```
 
-### Install zsh-syntax-highlighting
+### zsh-syntax-highlighting
+
+Install zsh-syntax-highlighting
 
 ```bash
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
+
+Open zshrc
 
 ```bash
 open ~/.zshrc
@@ -125,4 +133,24 @@ plugins=(
     # other plugins...
     zsh-syntax-highlighting
 )
+```
+
+### Neofetch
+
+Install neofetch
+
+```bash
+brew install neofetch
+```
+
+Open zshrc
+
+```bash
+code ~/.zshrc
+```
+
+Add neofetch
+
+```bash
+neofetch
 ```
