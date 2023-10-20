@@ -106,4 +106,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+export PATH=/opt/homebrew/bin:$PATH
+# export PATH="$PATH:/Users/wookingwoo/dev_sw/flutter/bin"
+
 neofetch
